@@ -1,0 +1,17 @@
+h1{
+	text-align: center;
+	color: white;
+	background-color: grey;
+	font-weight: bold;
+}
+*{
+	box-sizing: border-box;
+}
+li{
+	color: maroon;
+	font-family: Arial, Helvetica, sans-serif;
+}
+img{
+	border: 5px solid white;
+	margin-left: 120px;
+}
