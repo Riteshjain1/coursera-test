@@ -7,36 +7,38 @@ h1{
 	font-family: "Lucida Console", Courier, monospace;
 	
 }
-
-
-}
-.Sushi{
+.Chicken{
 	text-align: left;
 	font-family: "Lucida Console", Courier, monospace;
 	background-color: violet;
-	height: auto;
-	width: auto;
 	border: 2px solid black;
+	margin: 10px;
+	height: auto;
+	margin-top: 0px;
 }
+
+
 
 #Chicken{
 	height:auto;
 	width:133px;
 	border: 2px solid black;
 	margin-top: 0px;
-	margin-right: 10px;
 	text-align: center;
 	float: right;
 	font-family: "Lucida Console", Courier, monospace;
 	font-size: 19px;
 	background-color: magenta;
+	margin:10px;
+	margin-top: 0px;
 }
 .Sushi{
 	text-align: left;
 	font-family: "Lucida Console", Courier, monospace;
 	background-color: violet;
 	border: 2px solid black;
-	margin-right: 10px;
+	height: auto;
+	margin:10px;
 	margin-top: 0px;
 }
 
@@ -45,20 +47,23 @@ h1{
 	width:133px;
 	border: 2px solid black;
 	margin-top: 0px;
-	margin-right: 10px;
 	text-align: center;
 	float: right;
 	font-family: "Lucida Console", Courier, monospace;
 	font-size: 19px;
 	background-color: yellow;
+	margin:10px;
+	margin-top: 0px;
 }
 .Beef{
 	text-align: left;
 	font-family: "Lucida Console", Courier, monospace;
 	background-color: violet;
 	border: 2px solid black;
-	margin-right: 10px;
+	height: auto;
+	margin:10px;
 	margin-top: 0px;
+	clear:left;
 }
 
 #Beef{
@@ -66,17 +71,17 @@ h1{
 	width:133px;
 	border: 2px solid black;
 	margin-top: 0px;
-	margin-right: 10px;
 	text-align: center;
 	float: right;
 	font-family: "Lucida Console", Courier, monospace;
 	font-size: 19px;
 	background-color: red;
+	margin:10px;
+	margin-top: 0px;
 }
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -120,7 +125,6 @@ h1{
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-md-1 {
     width: 8.33%;
@@ -164,3 +168,5 @@ h1{
   .col-sm-12{
   	width: 100%;
   }
+ 
+
